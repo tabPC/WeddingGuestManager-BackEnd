@@ -4,4 +4,4 @@ See the frontend repo here: https://github.com/tabPC/WeddingGuestManager-FrontEn
 
 This is set up for my developmental purposes, and lacks the applications.properties file, which is necessary to run.
 
-Please see these resources used: [Spring Boot Full Stack with Angular Tutorial](https://www.youtube.com/watch?v=Gx4iBLKLVHk&t=4444s&ab_channel=Amigoscode) and [Bootdey Snippet: BS4 Contact Cards](https://www.bootdey.com/snippets/view/bs4-contact-cards)
+Please see these resources used: [Spring Boot Full Stack with Angular Tutorial](https://www.youtube.com/watch?v=Gx4iBLKLVHk&t=4444s&ab_channel=Amigoscode)
