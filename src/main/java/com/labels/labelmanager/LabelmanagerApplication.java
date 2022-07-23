@@ -10,14 +10,27 @@ import org.springframework.web.filter.CorsFilter;
 
 import java.util.Arrays;
 
+/**
+ * Wedding Guest Manager Application class
+ * @author Tabitha Chemelli
+ */
 @EnableEncryptableProperties
 @SpringBootApplication
 public class LabelmanagerApplication {
+	/**
+	 * Main program that runs the Spring Application, Wedding Guest Manager ("Label manager App")
+	 * @param args	any arguments passed
+	 */
 
 	public static void main(String[] args) {
 		SpringApplication.run(LabelmanagerApplication.class, args);
 	}
 
+	/**
+	 * CorsFilter configured to allow the front-end's origin to access the back-end
+	 * since they are on different domains
+	 * @return	the CorsFilter
+	 */
 	@Bean
 	public CorsFilter corsFilter() {
 		CorsConfiguration corsConfiguration = new CorsConfiguration();
